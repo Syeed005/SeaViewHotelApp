@@ -101,7 +101,7 @@ namespace SeaView.Desktop {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SeaView.Desktop;component/checkinform.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SeaView.Desktop;V1.0.0.0;component/checkinform.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CheckInForm.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

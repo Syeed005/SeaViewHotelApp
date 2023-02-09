@@ -101,7 +101,7 @@ namespace SeaView.Desktop {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SeaView.Desktop;component/checkoutform.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SeaView.Desktop;V1.0.0.0;component/checkoutform.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CheckOutForm.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
